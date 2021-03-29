@@ -6,9 +6,11 @@
 @import "./components/nav-bar.css";      
 @import "./components/screen-header.css";     
 @import "./components/user-component.css";     
+@import "./components/badge.css"; 
 /*Screen*/
 @import "./screen/login.css";      
 @import "./screen/friends.css";      
+@import "./screen/find.css";   
 
 
 body {
@@ -16,5 +18,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-screen {
+    padding : 0px var(--horizontal-space);
+}
 
-
+h1,h2,h3,h4,h5,h6,
+span{
+    font-size: 0.8em;
+}
